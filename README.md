@@ -77,13 +77,6 @@ module.exports = {
 import './assets/main.css'
 ```
 
-### 4. Install shadcn-vue (if not pre-configured)
-
-```bash
-npm install shadcn-vue
-npx shadcn-vue@latest init
-```
-
 Follow the prompts to set up components in `src/components/ui`.
 
 ### 5. Install Axios for API requests
@@ -135,7 +128,7 @@ src/
 
 ## Available Scripts
 
-* `npm run dev` - Start the development server
+* `npm run serve` - Start the development server
 * `npm run build` - Build for production
 * `npm run preview` - Preview the production build
 * `npm run lint` - Run ESLint
